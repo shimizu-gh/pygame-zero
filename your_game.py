@@ -1,6 +1,9 @@
-
 # Import the pgzrun module (needed for Pygame Zero)
 import pgzrun
+import pygame  # Add this line to import pygame
+
+# Disable the sound mixer to avoid audio-related errors
+pygame.mixer.quit()
 
 # Define the window size
 WIDTH = 800
